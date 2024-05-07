@@ -1,3 +1,65 @@
+body,html {
+  min-height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: 'Roboto', Sans-Serif; */
+  font-family: 'Inter', Sans-Serif;
+  /* font-size: 10px; */
+  overflow-x: auto;
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#main {
+  flex: 1 0 auto;
+}
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  background: none;
+}
+
+section {
+  overflow-x: hidden;
+}
+
+h2,
+h3,
+h4,
+p,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  padding-inline-start:0;
+  @media (min-width: 768px) {
+  padding-inline-start: 10px;}
+}
+
+a {
+  text-decoration: none;
+  cursor: revert;
+  color: inherit;
+}
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
