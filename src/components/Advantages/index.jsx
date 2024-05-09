@@ -33,7 +33,7 @@ export default function Advantages() {
                         <div className={style.advantages__img}> <Wallet/> </div>
                         <div className={style.advantages__itemInfo}>
                             <h3 className={style.advantages__itemTitle}>Доступні ціни</h3>
-                            <p className={style.advantages__itemText}>Ціни на товари та послуги завжди є доступними. </p>
+                            <p className={style.advantages__itemText}>Ціни на товари та послуги завжди є доступними, а якість роботи на найвищому рівні. </p>
                         </div>
                     </li>
                 </ul>
