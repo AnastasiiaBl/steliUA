@@ -1,0 +1,54 @@
+
+.advertising {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)) , url(../../../public/img/advertising-background.webp) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+
+    &__container {
+        min-width: 320px;
+        max-width: 1470px;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+        box-sizing: border-box;
+        display: flex;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #f7fbfa;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+
+        @media (min-width: 768px) {
+            font-size: 30px;
+        }
+
+        @media (min-width: 993px) {
+            font-size: 40px;
+        }
+    }
+
+    &__text {
+        padding-top: 25px;
+
+        @media (min-width: 768px) {
+            font-size: 20px;
+        }
+
+        @media (min-width: 993px) {
+            font-size: 25px;
+        }
+    }
+
+}
