@@ -2,7 +2,8 @@ import './App.css';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import Advantages from './components/Advantages';
-import Advertising from './components/Advertising';
+import Servises from './components/Servises';
+// import Advertising from './components/Advertising';
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
       <Header/>
       <Banner/>
       <Advantages/>
-      <Advertising/>
+      <Servises/>
+      {/* <Advertising/> */}
     </>
   )
 }
