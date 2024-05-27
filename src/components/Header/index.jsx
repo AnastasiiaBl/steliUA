@@ -48,7 +48,7 @@ export default function Header() {
             <ul className={style.nav__list}>
               <li className={style.nav__item}> <a href="#home">Головна</a> </li>
               <li className={style.nav__item}><a href="">Про нас</a></li>
-              <li className={style.nav__item}><a href="">Галерея</a></li>
+              <li className={style.nav__item}><a href="#works">Наші роботи</a></li>
               <li className={style.nav__item}><a href="">Контакти</a></li>
             </ul>
             {!isDesktop && (
