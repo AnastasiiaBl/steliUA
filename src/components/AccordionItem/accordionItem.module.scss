@@ -1,0 +1,78 @@
+.item {
+  &__wrapper {
+    border-bottom: 1px solid lightgray;
+  }
+
+  &__button {
+    all: unset;
+    color: #f2f2f2;
+    fill: #f2f2f2;
+    transition: 250ms ease;
+    padding: 1.5rem 0;
+    width: 100%;
+    font-weight: 600;
+  }
+
+  &__button:hover {
+    background-image: linear-gradient(
+      90deg,
+      transparent,
+      rgb(255 255 255 / 7%),
+      transparent
+    );
+    cursor: pointer;
+  }
+
+  &__button.active {
+    background-image: linear-gradient(
+      90deg,
+      transparent,
+      rgb(255 255 255 / 7%),
+      transparent
+    );
+    color: #ca8b64;
+    fill: #ca8b64;
+  }
+
+  &__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__icon {
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    transition: transform 250ms ease;
+    opacity: 0.5;
+  }
+
+  &__icon.chevronDown {
+    transform: rotate(540deg);
+    top: -1px;
+  }
+
+  &__icon.chevronUp {
+    transform: rotate(0deg);
+  }
+
+  &__contentContainer {
+    // max-width: 75%;
+    // transition: height 0.3s ease;
+    // height: 0; /* Изначально высота 0 для закрытого состояния */
+    max-width: 75%;
+  transition: 250ms ease;
+  overflow: hidden;
+  }
+
+  &__contentContainer.open {
+    height: auto; /* Открытое состояние, высота будет задаваться динамически */
+}
+
+  &__content {
+    padding: 1rem;
+    color: #f2f2f2;
+  }
+}
+

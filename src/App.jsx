@@ -4,7 +4,8 @@ import Banner from './components/Banner';
 import Advantages from './components/Advantages';
 import Servises from './components/Servises';
 import Works from './components/Works';
-// import Advertising from './components/Advertising';
+import Advertising from './components/Advertising';
+import Accordion from './components/Accordion';
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
       <Advantages/>
       <Servises/>
       <Works/>
-      {/* <Advertising/> */}
+      <Advertising/>
+      <Accordion/>
     </>
   )
 }

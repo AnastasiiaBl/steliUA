@@ -5,3 +5,4 @@ export * from "./variety.jsx";
 export * from "./safety.jsx";
 export * from "./wallet.jsx";
 export * from "./arrow.jsx";
+export * from "./chevronUp.jsx";

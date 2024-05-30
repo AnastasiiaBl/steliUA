@@ -4,7 +4,7 @@ export default function Advertising() {
 
     return (
         <>
-        <section className={style.advertising}>
+        <section id="advertising" className={style.advertising}>
             <div className={style.advertising__container}>
                 <div className={style.advertising__content}>
                     <h2 className={style.advertising__title}>11 років досвіду в натяжних стелях</h2>

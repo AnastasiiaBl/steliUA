@@ -1,0 +1,13 @@
+
+.accordion{
+  background-color: #111111;
+  min-width: 320px;
+
+    &__container {
+      min-width: 320px;
+      max-width: 1470px;
+      margin: 0 auto;
+      padding: 0 15px;
+      box-sizing: border-box;
+      }
+}
