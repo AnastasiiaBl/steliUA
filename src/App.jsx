@@ -6,6 +6,7 @@ import Servises from './components/Servises';
 import Works from './components/Works';
 import Advertising from './components/Advertising';
 import Accordion from './components/Accordion';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Works/>
       <Advertising/>
       <Accordion/>
+      <Footer/>
     </>
   )
 }

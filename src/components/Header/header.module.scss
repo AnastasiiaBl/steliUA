@@ -32,6 +32,12 @@
     }
   }
 
+  &__logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
   &__logoTitle {
     font-size: 24px;
     font-weight: 800;

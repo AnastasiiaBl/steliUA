@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 // import { scrollToTop } from "../../utils";
 // import { Link } from "react-router-dom";
 import { useMediaQuery } from 'react-responsive';
-import { NavPhone, HeaderPhone } from '../icons';
+import { NavPhone, HeaderPhone, LogoUA } from '../icons';
 
 
 export default function Header() {
@@ -41,15 +41,16 @@ export default function Header() {
       <div className={`${style.header__wrapper} ${scrolled && style.header__scrolled}`}>
         <div className={`${style.header__container} ${scrolled && style.header__container_scrolled}`}>
           <div className={style.header__logo}>
+            <LogoUA/>
             <h1 className={style.header__logoTitle}>SteliUA</h1>
           </div>
           <div className={style.header__nav}>
           <nav className={`${style.nav} ${isOpen && style.active}`}>
             <ul className={style.nav__list}>
               <li className={style.nav__item}> <a href="#home">Головна</a> </li>
-              <li className={style.nav__item}><a href="">Про нас</a></li>
+              <li className={style.nav__item}><a href="#servises">Види послуг</a></li>
               <li className={style.nav__item}><a href="#works">Наші роботи</a></li>
-              <li className={style.nav__item}><a href="">Контакти</a></li>
+              <li className={style.nav__item}><a href="#footer">Контакти</a></li>
             </ul>
             {!isDesktop && (
               <div className={style.nav__phone}> 
