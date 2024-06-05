@@ -1,19 +1,3 @@
-// import style from "./works.module.scss";
-
-// export default function Works() {
-
-//     return (
-//         <>
-//         <section id="works" className={style.works}>
-//             <div className={style.works__container}>
-//                     <h2 className={style.servises__title}>Наші роботи</h2>
-//                     <p className={style.servises__text}>Якийсь текст</p>
-
-//             </div>
-//         </section>
-//         </>
-//     )
-// }
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import worksImg from "./worksImg.js";
@@ -58,9 +42,6 @@ export default function Works() {
           600: {
             slidesPerView: 2,
           },
-          // 500: {
-          //   slidesPerView: 2,
-          // },
           300: {
             slidesPerView: 1,
           },

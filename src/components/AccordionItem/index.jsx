@@ -21,12 +21,6 @@ export default function AccordionItem({ heading, content, isOpen, onClick }) {
           </span>
         </p>
       </button>
-      {/* <div
-        className={`${style.item__contentContainer} ${isOpen ? style.open : ""}`}
-        ref={contentHeight}
-      >
-        <p className={style.item__content}>{content}</p>
-      </div> */}
       <div
           className={style.item__contentContainer}
           ref={contentHeight}
@@ -42,7 +36,7 @@ export default function AccordionItem({ heading, content, isOpen, onClick }) {
   );
 }
 
-// https://codepen.io/maacaa0/pen/RwdPoEX
+
 AccordionItem.propTypes = {
   heading: PropTypes.string.isRequired,
   content: PropTypes.string.isRequired,

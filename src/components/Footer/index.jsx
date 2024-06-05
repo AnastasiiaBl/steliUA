@@ -46,7 +46,7 @@ function Footer() {
           </div>
         </nav>
         <div className={style.footer__devInfo}>
-          <span>Copyright © 2024 LLC.</span>
+          <span>SteliUA © 2024 </span>
           <span>&nbsp; All rights reserved</span>
         </div>
       </div>

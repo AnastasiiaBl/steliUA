@@ -10,7 +10,7 @@ export default function Banner() {
                     <h2 className={style.banner__title}>Натяжні стелі від виробника за найкращими цінами</h2>
                     <p className={style.banner__text}>Виготовлення та монтаж</p>
                     <p className={style.banner__text}>Встановлення стель будь-якої складності</p>
-                    <button className={style.banner__btn}>Залишити заявку</button>
+                    <a href="#advertising" className={style.banner__btn}>Залишити заявку</a>
                 </div>
             </div>
         </section>

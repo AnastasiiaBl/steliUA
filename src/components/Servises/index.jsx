@@ -9,7 +9,7 @@ export default function Servises() {
             <div className={style.servises__container}>
                 <div className={style.servises__content}>
                     <h2 className={style.servises__title}>Види натяжних стель</h2>
-                    <p className={style.servises__text}>Залежно від матеріалу натяжні стелі діляться на дві великі групи – плівкові і тканинні. Плівкові натяжні стелі являють собою ПВХ плівку завтовшки 0,17-0,3 мм. По фактурі бувають глянсовими, сатиновими і матовими.</p>
+                    <p className={style.servises__text}>Залежно від матеріалу натяжні стелі діляться на дві великі групи – плівкові і тканинні. Плівкові натяжні стелі являють собою ПВХ плівку завтовшки 0,17-0,3 мм. По фактурі бувають глянцевими, сатиновими і матовими.</p>
                     <div className={style.servises__list}>
                     {fields.map((field, index) => (
                         <div key={index} className={style.servises__block}>

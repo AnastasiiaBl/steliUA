@@ -3,6 +3,10 @@
     border-bottom: 1px solid lightgray;
   }
 
+  &__wrapper:last-child {
+    border-bottom: none;
+  }
+
   &__button {
     all: unset;
     color: #f2f2f2;
@@ -58,21 +62,17 @@
   }
 
   &__contentContainer {
-    // max-width: 75%;
-    // transition: height 0.3s ease;
-    // height: 0; /* Изначально высота 0 для закрытого состояния */
-    max-width: 75%;
-  transition: 250ms ease;
-  overflow: hidden;
-  }
+    max-width: 100%;
+    transition: 250ms ease;
+    overflow: hidden;
 
-  &__contentContainer.open {
-    height: auto; /* Открытое состояние, высота будет задаваться динамически */
-}
+    @media (min-width: 993px) {
+      max-width: 75%;
+    }
+  }
 
   &__content {
     padding: 1rem;
     color: #f2f2f2;
   }
 }
-

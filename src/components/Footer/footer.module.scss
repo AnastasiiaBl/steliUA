@@ -147,16 +147,15 @@ ul {
       font-weight: 500;
       letter-spacing: 1px;
       line-height: 142%;
-      transition: all .4s ease 0s;
   
-      // &:hover a {
-      //   color: #202025;
-      //   font-weight: 800;
-      // }
+      &:hover a {
+        color: #202025;
+        font-weight: 700;
+      }
     }
 
     &__infoItem a {
-      transition: all .3s ease 0s;
+      transition: all 0.3s ease;
       color: #686a6c;
     }
 
@@ -170,12 +169,12 @@ ul {
     &__socialItem {
       width: 100%;
       color: #686a6c;
-      transition: all .4s ease 0s;
+      transition: all .3s ease 0s;
   
-      // &:hover span {
-      //   color: #202025;
-      //   font-weight: 800;
-      // }
+      &:hover span {
+        color: #202025;
+        font-weight: 700;
+      }
     }
 
     &__socialLink {
@@ -183,12 +182,17 @@ ul {
       align-items: center;
       font-size: 14px;
       gap: 8px;
+
+      &:hover {
+        color: #202025;
+        font-weight: 700;
+      }
     }
   
-    // &__socialLink span {
-    //   transition: all .4s ease 0s;
-    //   color: #686a6c;
-    // }
+    &__socialLink span {
+      transition: all .4s ease 0s;
+      color: #686a6c;
+    }
   }
   
   

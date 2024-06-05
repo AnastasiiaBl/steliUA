@@ -1,7 +1,5 @@
 import style from './header.module.scss';
 import { useState, useEffect } from "react";
-// import { scrollToTop } from "../../utils";
-// import { Link } from "react-router-dom";
 import { useMediaQuery } from 'react-responsive';
 import { NavPhone, HeaderPhone, LogoUA } from '../icons';
 

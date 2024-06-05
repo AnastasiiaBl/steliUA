@@ -5,7 +5,6 @@ import style from "./accordion.module.scss";
 
 export default function Accordion() {
     const [activeIndex, setActiveIndex] = useState(null);
-    // console.log(activeIndex)
   
     const handleItemClick = (index) => {
       setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
