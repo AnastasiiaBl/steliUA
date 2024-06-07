@@ -7,6 +7,7 @@ import Works from './components/Works';
 import Advertising from './components/Advertising';
 import Accordion from './components/Accordion';
 import Footer from './components/Footer';
+import ToTopButton from './components/ToTopButton';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Advertising/>
       <Accordion/>
       <Footer/>
+      <ToTopButton/>
     </>
   )
 }

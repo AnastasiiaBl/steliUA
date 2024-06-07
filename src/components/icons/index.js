@@ -8,3 +8,4 @@ export * from "./arrow.jsx";
 export * from "./chevronUp.jsx";
 export * from "./logoUA.jsx";
 export * from "./instagram.jsx";
+export * from "./backToTopIcon.jsx";
